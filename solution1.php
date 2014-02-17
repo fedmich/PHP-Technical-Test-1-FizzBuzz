@@ -31,7 +31,10 @@
 			<h4>Output</h4>
 			<div class="output">
 				<?php
-				echo $result;
+				foreach ($result as $line) {
+					echo $line;
+					echo '<br />';
+				}
 				?>
 			</div>
 			<?php
