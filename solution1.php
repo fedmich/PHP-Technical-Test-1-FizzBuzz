@@ -13,5 +13,17 @@
 			<input type="submit" value="Go" />
 		</form>
 
+		<?php
+		//Get numbers from GET params
+		$number_1 = empty($_GET['number_1']) ? '' : $_GET['number_1'];
+		$number_2 = empty($_GET['number_2']) ? '' : $_GET['number_2'];
+		?>
+		<?php
+		if ($number_1 && $number_2) {
+			//both number are supplied!
+
+			/* TODO: Show output below */
+		}
+		?>
 	</body>
 </html>
