@@ -3,6 +3,10 @@ PHP-Technical-Test-1-FizzBuzz
 
 Test answers for PropertyGuru
 
+---
+
+![Preview](https://raw2.github.com/fedmich/PHP-Technical-Test-1-FizzBuzz/master/preview.png)
+
 
 Task 1:
 Please create a free account and public Git repository on GitHub for this test.
