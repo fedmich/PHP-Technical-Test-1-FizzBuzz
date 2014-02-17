@@ -4,20 +4,22 @@
 		<title>Solution 1</title>
 	</head>
 	<body>
-		<h1>FizzBuzz Solution 1</h1>
-		<form name="" action="">
-			Number 1: <input type="number" id="number_1" name="number_1" value="12" required autofocus />
-			<br />
-			Number 2: <input type="number" id="number_2" name="number_2" value="16" required />
-			<br />
-			<input type="submit" value="Go" />
-		</form>
 
 		<?php
 		//Get numbers from GET params
 		$number_1 = empty($_GET['number_1']) ? '' : $_GET['number_1'];
 		$number_2 = empty($_GET['number_2']) ? '' : $_GET['number_2'];
 		?>
+
+		<h1>FizzBuzz Solution 1</h1>
+		<form name="" action="">
+			Number 1: <input type="number" id="number_1" name="number_1" value="<?=$number_1;?>" required autofocus />
+			<br />
+			Number 2: <input type="number" id="number_2" name="number_2" value="<?=$number_2;?>" required />
+			<br />
+			<input type="submit" value="Go" />
+		</form>
+
 		<?php
 		if ($number_1 && $number_2) {
 			//both number are supplied!
