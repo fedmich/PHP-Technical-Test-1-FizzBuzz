@@ -25,6 +25,16 @@
 			include dirname(__FILE__) . "/lib_FizzBuzz.php";
 
 			/* TODO: Show output below */
+
+			$result = FizzBuzz($number_1, $number_2);
+			?>
+			<h4>Output</h4>
+			<div class="output">
+				<?php
+				echo $result;
+				?>
+			</div>
+			<?php
 		}
 		?>
 	</body>
