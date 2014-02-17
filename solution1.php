@@ -22,6 +22,8 @@
 		if ($number_1 && $number_2) {
 			//both number are supplied!
 
+			include dirname(__FILE__) . "/lib_FizzBuzz.php";
+
 			/* TODO: Show output below */
 		}
 		?>
