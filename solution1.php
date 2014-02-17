@@ -2,6 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" >
 	<head>
 		<title>Solution 1</title>
+		<link href="style.css" rel="stylesheet" type="text/css" media="all" />
 	</head>
 	<body>
 
@@ -30,8 +31,9 @@
 
 			$result = FizzBuzz($number_1, $number_2);
 			?>
-			<h4>Output</h4>
-			<div class="output">
+			<hr />
+			<h4 class="output">Output</h4>
+			<div class="output console_log">
 				<?php
 				foreach ($result as $line) {
 					echo $line;
