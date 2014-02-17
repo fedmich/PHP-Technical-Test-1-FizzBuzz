@@ -6,9 +6,9 @@
 	<body>
 		<h1>FizzBuzz Solution 1</h1>
 		<form name="" action="">
-			Number 1: <input type="text" id="number_1" name="number_1" value="" />
+			Number 1: <input type="number" id="number_1" name="number_1" value="" required />
 			<br />
-			Number 2: <input type="text" id="number_2" name="number_2" value="" />
+			Number 2: <input type="number" id="number_2" name="number_2" value="" required />
 			<br />
 			<input type="submit" value="Go" />
 		</form>
